@@ -4,9 +4,11 @@ const Home = () => {
   return (
     <div>
       
-      {/* <br />(Home Page Placeholder)<br />  */}
-      
-      {/* <img src="https://i.imgur.com/V8jMN12.png" width="400px"/> */}
+      <header className="heading">
+        <span className="heading__sub heading__sub--1">Krystal's </span>&nbsp;
+        <span className="heading__sub heading__sub--2">Concert &nbsp;&nbsp; </span>
+        <span className="heading__sub heading__sub--3">&nbsp; Scrapbook</span>
+      </header>
 
       <ConcertList />
     </div>

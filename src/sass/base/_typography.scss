@@ -6,3 +6,38 @@ body {
   // line-height: 1.7rem;
   // color: $color-grey--dark;
 }
+
+.heading {
+  font-weight: normal;
+
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  width: 55rem;
+
+  &__sub {
+    display: block;
+
+    font-size: 8rem;
+
+    &--1 {
+      font-family: $font-krystal;
+      align-self: left;
+      color: blue;
+    }
+
+    &--2 {
+      font-family: $font-concert;
+      align-self: flex-end;
+      color: aqua;
+    }
+
+    &--3 {
+      font-family: $font-scrapbook;
+      align-self: center;
+      font-size: 7rem;
+      color: yellow;
+    }
+  }
+}
