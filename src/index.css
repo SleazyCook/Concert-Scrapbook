@@ -47,6 +47,7 @@ body {
   padding: 1rem;
   height: 30rem;
   max-width: 80rem;
+  max-width: 40rem;
   overflow: hidden;
   box-shadow: 7px 7px 7px black; }
   .concert-preview:not(:last-child) {

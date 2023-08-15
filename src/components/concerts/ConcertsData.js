@@ -9,7 +9,7 @@ let concertsData = [
     state: "Texas",
     venue: "Bayou Music Center",
     meet: true,
-    artistPic: "https://i.imgur.com/N51aAcP.png",
+    artistPic: "https://i.imgur.com/lUsFUJq.png",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ let concertsData = [
     state: "Texas",
     venue: "Bayou Music Center",
     meet: true,
-    artistPic: "https://i.imgur.com/Ph3CaDP.png",
+    artistPic: "https://i.imgur.com/mFpkzLm.png",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ let concertsData = [
     state: "Texas",
     venue: "House of Blues",
     meet: true,
-    artistPic: "https://i.imgur.com/c4ikMRG.png",
+    artistPic: "https://i.imgur.com/AV6EakB.png",
     pictures: [],
     videos: [],
     wentWith: ["Drew", "Bria"],
@@ -43,13 +43,17 @@ let concertsData = [
     id: 4,
     artist: "Thee Sacred Souls",
 
-    artistPic: "https://i.imgur.com/EhHqmd3.png"
+    date: "March 12th",
+
+    artistPic: "https://i.imgur.com/Pg2GctJ.png"
   },
   {
     id: 5,
     artist: "Dreamer Isioma",
 
-    artistPic: "https://i.imgur.com/hG59ZUZ.png"
+    date: "May 28th",
+
+    artistPic: "https://i.imgur.com/Xao5kq3.png"
   },
   {
     id: 6,
@@ -57,7 +61,7 @@ let concertsData = [
 
     date: "June 2nd",
 
-    artistPic: "https://i.imgur.com/SFtVoZV.png"
+    artistPic: "https://i.imgur.com/DHYdrxE.png"
   },
   {
     id: 7,
@@ -65,7 +69,7 @@ let concertsData = [
 
     date: "June 8th",
 
-    artistPic: "https://i.imgur.com/V3YxxEn.png"
+    artistPic: "https://i.imgur.com/ZCe2KKC.png"
   },
   {
     id: 8,
@@ -73,7 +77,7 @@ let concertsData = [
 
     date: "June 8th",
 
-    artistPic: "https://i.imgur.com/y58vvWx.png"
+    artistPic: "https://i.imgur.com/K1yMXow.png"
   },
 
   {
@@ -82,15 +86,24 @@ let concertsData = [
 
     date: "July, 23rd",
 
-    artistPic: "https://i.imgur.com/3iniLfc.png"
+    artistPic: "https://i.imgur.com/KjEx7X3.png"
   },
   {
     id: 10,
+    artist: "Wiz Khalifa",
+
+    date: "August 14th",
+
+    artistPic: "https://i.imgur.com/hFxIBAb.png"
+
+  },
+  {
+    id: 11,
     artist: "Snoop Dogg",
 
     date: "August 14th",
 
-    artistPic: "https://i.imgur.com/Cm6F9VQ.png"
+    artistPic: "https://i.imgur.com/k72bhbS.png"
   }
 ]
 
