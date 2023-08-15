@@ -1,3 +1,5 @@
+import New_Apartment from '../../../assets/new_apartment.mp4'
+
 let concertsData = [
   {
     id: 1,
@@ -35,7 +37,7 @@ let concertsData = [
     meet: true,
     artistPic: "https://i.imgur.com/AV6EakB.png",
     pictures: [],
-    videos: [],
+    videos: New_Apartment,
     wentWith: ["Drew", "Bria"],
     merch: []
   },

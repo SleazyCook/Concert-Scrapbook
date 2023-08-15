@@ -31,16 +31,20 @@ const Concert = () => {
       <br />
       {concertObj.pictures && concertObj.pictures}
       
-      {concertObj.videos && concertObj.videos}
+      {/* {concertObj.videos &&  <div>
+        <video width="320" height="240" controls>
+          <source src=>{concertObj.videos} type="video/mp4"></source>
+        </video>
+      </div>} */}
 
       {concertObj.wentWith && concertObj.wentWith}
 
       {concertObj.merch && concertObj.merch}
 
       <br />
-      Video player
+      Video player default
       <video width="320" height="240" controls>
-       <source src={MyVideo} type="video/mp4"></source>
+       <source src={concertObj.videos} type="video/mp4" />
       </video>
       
 
