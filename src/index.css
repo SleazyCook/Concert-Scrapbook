@@ -46,7 +46,7 @@ body {
   border-radius: 1rem;
   padding: 1rem;
   height: 30rem;
-  max-width: 80rem;
+  min-width: 35rem;
   max-width: 40rem;
   overflow: hidden;
   box-shadow: 7px 7px 7px black; }
@@ -54,7 +54,11 @@ body {
     margin-bottom: 2rem; }
   .concert-preview__box {
     background-color: #1e1e1e;
-    padding: 2rem; }
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
     .concert-preview__box a {
       color: white;
       text-decoration: none; }
