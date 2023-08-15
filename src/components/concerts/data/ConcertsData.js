@@ -1,4 +1,5 @@
 import New_Apartment from '../../../assets/new_apartment.mp4'
+import Shea_Butter from '../../../assets/shea_butter.mp4'
 
 let concertsData = [
   {
@@ -37,7 +38,18 @@ let concertsData = [
     meet: true,
     artistPic: "https://i.imgur.com/AV6EakB.png",
     pictures: [],
-    videos: New_Apartment,
+    videos: [
+      {
+        id: 1,
+        name: "New Apartment",
+        video: New_Apartment
+      },
+      {
+        id: 2,
+        name: "Shea Butter Baby (Farewell)",
+        video: Shea_Butter
+      }
+    ],
     wentWith: ["Drew", "Bria"],
     merch: []
   },

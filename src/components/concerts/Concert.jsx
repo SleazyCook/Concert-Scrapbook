@@ -3,8 +3,6 @@ import { useParams } from 'react-router-dom'
 
 import concertsData from './data/ConcertsData'
 
-import MyVideo from '../../assets/new_apartment.mp4'
-
 const Concert = () => {
 
   const {concertId} = useParams()
@@ -42,10 +40,23 @@ const Concert = () => {
       {concertObj.merch && concertObj.merch}
 
       <br />
-      Video player default
+      {/* Video player default
       <video width="320" height="240" controls>
        <source src={concertObj.videos} type="video/mp4" />
-      </video>
+      </video> */}
+
+      <br />VIDEOS<br />
+
+      {concertObj.videos && concertObj.videos.map((videoObj) => {
+        return (
+          <div key={videoObj.id} value={videoObj.id}>
+            <span>{videoObj.name}</span>
+            <video width="320" height="240" controls>
+              <source src={videoObj.video} type="video/mp4" />
+            </video>
+          </div>
+        )
+      })}
       
 
     </div>
