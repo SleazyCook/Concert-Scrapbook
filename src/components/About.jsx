@@ -4,7 +4,7 @@ const About = () => {
       
       <br />About Page <br />
       
-      <img src="https://i.imgur.com/V8jMN12.png" width="400px"/>
+      <img src="https://i.imgur.com/wmV9Ojb.png" width="400px"/>
     </div>
   )
 }
