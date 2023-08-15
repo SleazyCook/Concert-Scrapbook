@@ -78,7 +78,7 @@ body {
   overflow: hidden;
   box-shadow: 7px 7px 7px black; }
   .concert-preview:not(:last-child) {
-    margin-bottom: 2rem; }
+    margin-bottom: 4rem; }
   .concert-preview__box {
     background-color: #1e1e1e;
     padding: 2rem;
