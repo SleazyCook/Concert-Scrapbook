@@ -1,14 +1,14 @@
 import { Link } from 'react-router-dom'
 
-import concertsData from './ConcertsData';
+import concertsData from './data/ConcertsData';
 
 const ConcertList = () => {
 
   const concertsByRecent = [...concertsData].reverse()
-  console.log(concertsByRecent)
 
   return (
     <div className="concert-preview__box">
+  
       {concertsByRecent.map((concertsObj) => {
         return (
           <Link 
@@ -25,6 +25,7 @@ const ConcertList = () => {
           </Link>
         )
       })}
+
     </div>
   )
 }

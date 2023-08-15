@@ -1,12 +1,16 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 
-import concertsData from './ConcertsData'
+import concertsData from './data/ConcertsData'
+
+import MyVideo from '../../assets/new_apartment.mp4'
 
 const Concert = () => {
 
   const {concertId} = useParams()
   const [concertObj, setConcertObj] = useState({})
+
+  // const new_apartment = '../../assets/new_apartment.mp4'
 
   useEffect(() => {
     setConcertObj(concertsData[concertId-1])
@@ -32,7 +36,14 @@ const Concert = () => {
       {concertObj.wentWith && concertObj.wentWith}
 
       {concertObj.merch && concertObj.merch}
+
+      <br />
+      Video player
+      <video width="320" height="240" controls>
+       <source src={MyVideo} type="video/mp4"></source>
+      </video>
       
+
     </div>
   )
 }
