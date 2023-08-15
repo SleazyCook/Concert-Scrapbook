@@ -3,9 +3,13 @@ import { Link } from 'react-router-dom'
 import concertsData from './ConcertsData';
 
 const ConcertList = () => {
+
+  const concertsByRecent = [...concertsData].reverse()
+  console.log(concertsByRecent)
+
   return (
     <div className="concert-preview__box">
-      {concertsData.map((concertsObj) => {
+      {concertsByRecent.map((concertsObj) => {
         return (
           <Link 
             to={`/${concertsObj.id}`} 
@@ -17,7 +21,7 @@ const ConcertList = () => {
               {concertsObj.artist}</span>
 
             <img src={concertsObj.artistPic} className="concert-preview__image" />
-            
+
           </Link>
         )
       })}

@@ -109,3 +109,24 @@ let concertsData = [
 
 export default concertsData;
 
+// tyler the creator, march 27, 2022
+// Kali Uchis march 27
+// Vince Staples march 27
+// Teezo Touchdown march 27
+
+// march 19th, 2022 los angeles
+// Free Nationals
+// Foushee
+// Ravyn Lanae
+// Angie Stone
+// Macy Gray
+// Musiq Soulchild
+// Sir
+// Smino
+// Thundercat
+// The Internet
+// Jhene Aiko,
+// Miguel
+// Nas
+// The Roots
+// Erykah Badu
