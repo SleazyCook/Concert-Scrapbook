@@ -100,10 +100,18 @@ let concertsData = [
   {
     id: 11,
     artist: "Snoop Dogg",
-
+    year: 2023,
     date: "August 14th",
-
-    artistPic: "https://i.imgur.com/k72bhbS.png"
+    tour: "High School Reunion",
+    city: "The Woodlands",
+    state: "Texas",
+    venue: "Cynthia Woods Pavillion",
+    meet: false,
+    artistPic: "https://i.imgur.com/k72bhbS.png",
+    pictures: [],
+    videos: [],
+    wentWith: ["Drew"],
+    merch: []
   }
 ]
 

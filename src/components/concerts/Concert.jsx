@@ -16,6 +16,23 @@ const Concert = () => {
   return (
     <div>
       {concertObj.artist}
+      <br />
+      {concertObj.date}, {concertObj.year}
+      <br />
+      {concertObj.tour}
+      <br />
+      {concertObj.venue} - {concertObj.city}, {concertObj.state}
+      <br />
+      {concertObj.meet && "Meet & Greet Pics, Video"}
+      <br />
+      {concertObj.pictures && concertObj.pictures}
+      
+      {concertObj.videos && concertObj.videos}
+
+      {concertObj.wentWith && concertObj.wentWith}
+
+      {concertObj.merch && concertObj.merch}
+      
     </div>
   )
 }

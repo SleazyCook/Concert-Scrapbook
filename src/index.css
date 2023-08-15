@@ -86,7 +86,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
     max-width: 60rem; }
     .concert-preview__box a {
       color: white;
