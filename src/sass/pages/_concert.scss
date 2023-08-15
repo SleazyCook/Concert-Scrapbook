@@ -1,0 +1,12 @@
+.concert {
+  // color: blue;
+
+  &-pics {
+
+    &__pic {
+      & img {
+        width: 40rem;
+      }
+    }
+  }
+}

@@ -16,7 +16,7 @@ const Concert = () => {
   }, [concertId])
 
   return (
-    <div>
+    <div className="concert">
       {concertObj.artist}
       <br />
       {concertObj.date}, {concertObj.year}
@@ -27,15 +27,18 @@ const Concert = () => {
       <br />
       {concertObj.meet && "Meet & Greet Pics, Video"}
       <br />
-      {concertObj.pictures && concertObj.pictures}
-      
-      {/* {concertObj.videos &&  <div>
-        <video width="320" height="240" controls>
-          <source src=>{concertObj.videos} type="video/mp4"></source>
-        </video>
-      </div>} */}
+      <div className="concert-pics">
+        Pictures <br /><br />
+        {concertObj.pictures && concertObj.pictures.map((picObj) => {
+          return (
+            <div className="concert-pics__pic" key={picObj.id} value={picObj.id}>
+              <img src={picObj.img} />
+            </div>
+          )
+        })}
+      </div>
 
-      {concertObj.wentWith && concertObj.wentWith}
+      Attended with {concertObj.wentWith && concertObj.wentWith}
 
       {concertObj.merch && concertObj.merch}
 
@@ -45,12 +48,12 @@ const Concert = () => {
        <source src={concertObj.videos} type="video/mp4" />
       </video> */}
 
-      <br />VIDEOS<br />
+      <br />VIDEOS:<br /><br />
 
       {concertObj.videos && concertObj.videos.map((videoObj) => {
         return (
           <div key={videoObj.id} value={videoObj.id}>
-            <span>{videoObj.name}</span>
+            <div>{videoObj.name}</div>
             <video width="320" height="240" controls>
               <source src={videoObj.video} type="video/mp4" />
             </video>

@@ -1,5 +1,5 @@
-import New_Apartment from '../../../assets/new_apartment.mp4'
-import Shea_Butter from '../../../assets/shea_butter.mp4'
+import New_Apartment from './assets/new_apartment.mp4'
+import Shea_Butter from './assets/shea_butter.mp4'
 
 let concertsData = [
   {
@@ -37,7 +37,16 @@ let concertsData = [
     venue: "House of Blues",
     meet: true,
     artistPic: "https://i.imgur.com/AV6EakB.png",
-    pictures: [],
+    pictures: [
+      {
+        id: 1,
+        img: "https://i.imgur.com/9WozMVm.jpg"
+      },
+      {
+        id: 2,
+        img: "https://i.imgur.com/w8EH9wq.jpg"
+      }
+    ],
     videos: [
       {
         id: 1,
