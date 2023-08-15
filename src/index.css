@@ -40,7 +40,6 @@ body {
   font-size: 16px; }
 
 .concert-preview {
-  border: 2px solid white;
   display: block;
   position: relative;
   background-color: black;
@@ -48,11 +47,12 @@ body {
   padding: 1rem;
   height: 30rem;
   max-width: 80rem;
-  overflow: hidden; }
+  overflow: hidden;
+  box-shadow: 7px 7px 7px black; }
   .concert-preview:not(:last-child) {
     margin-bottom: 2rem; }
   .concert-preview__box {
-    background-color: green;
+    background-color: #1e1e1e;
     padding: 2rem; }
     .concert-preview__box a {
       color: white;

@@ -1,5 +1,4 @@
 .concert-preview {
-  border: 2px solid white;
   
   display: block;
   position: relative;
@@ -9,13 +8,14 @@
   height: 30rem;
   max-width: 80rem;
   overflow: hidden;
+  box-shadow: 7px 7px 7px black;
 
   &:not(:last-child) {
     margin-bottom: 2rem;
   }
 
   &__box {
-    background-color: green;
+    background-color: #1e1e1e;
     padding: 2rem;
 
     & a {
