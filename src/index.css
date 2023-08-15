@@ -73,19 +73,21 @@ body {
   border-radius: 1rem;
   padding: 1rem;
   height: 30rem;
-  min-width: 35rem;
-  max-width: 40rem;
+  min-width: 37.5rem;
+  max-width: 50rem;
   overflow: hidden;
   box-shadow: 7px 7px 7px black; }
   .concert-preview:not(:last-child) {
-    margin-bottom: 4rem; }
+    margin-bottom: 2.5rem; }
   .concert-preview__box {
     background-color: #1e1e1e;
     padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    border: 2px solid white;
+    max-width: 60rem; }
     .concert-preview__box a {
       color: white;
       text-decoration: none; }
