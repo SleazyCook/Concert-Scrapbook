@@ -25,6 +25,8 @@ const Concert = () => {
       <br />
       {concertObj.venue} - {concertObj.city}, {concertObj.state}
       <br />
+      Attended with {concertObj.wentWith && concertObj.wentWith}
+      <br />
       {concertObj.meet && "Meet & Greet Pics, Video"}
       <br />
       <div className="concert-pics">
@@ -38,7 +40,7 @@ const Concert = () => {
         })}
       </div>
 
-      Attended with {concertObj.wentWith && concertObj.wentWith}
+      {/* setlist component? */}
 
       {concertObj.merch && concertObj.merch}
 
