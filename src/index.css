@@ -117,7 +117,9 @@ body {
   .concert__name {
     font-size: 4rem;
     align-self: flex-start;
-    margin-left: 5rem; }
+    margin-left: 5rem;
+    font-family: "Special Elite", cursive;
+    color: white; }
   .concert__image img {
     border-radius: 1rem;
     max-width: 44rem;
@@ -125,6 +127,7 @@ body {
   .concert__flexbox {
     display: flex;
     margin: 1rem 0;
+    padding: 2rem 0;
     background-color: #111111;
     border-radius: 1rem;
     box-shadow: 7px 7px 7px black; }
