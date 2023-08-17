@@ -387,6 +387,7 @@ let concertsData = [
     artist: "Larry June",
     year: 2023,
     date: "May 23rd",
+    tour: "Market Run",
     city: "Houston",
     state: "Texas",
     venue: "Bayou Music Center",
@@ -394,7 +395,7 @@ let concertsData = [
     preview: "https://i.imgur.com/lbWXSTL.png",
     artistPic: "https://i.imgur.com/VsxgwEU.png",
     tourPic: "https://i.imgur.com/0s30im8.png",
-    wentWith: [],
+    wentWith: ["Bria, ", "Mason"],
     pictures: [
       {
         id: 1,
@@ -651,7 +652,7 @@ let concertsData = [
     venue: "The Bronze Peacock",
     meet: false,
     preview: "https://i.imgur.com/ZCe2KKC.png",
-    artistPic: "",
+    artistPic: "https://i.imgur.com/bdBPEFL.png",
     tourPic: "https://i.imgur.com/conTUxF.png",
     wentWith: ["Drew, ", "Mason, ", "Christina, ", "Glenn"],
     pictures: [
@@ -678,7 +679,7 @@ let concertsData = [
     venue: "The Bronze Peacock",
     meet: false,
     preview: "https://i.imgur.com/K1yMXow.png",
-    artistPic: "",
+    artistPic: "https://i.imgur.com/eYM7C91.png",
     tourPic: "https://i.imgur.com/conTUxF.png",
     wentWith: ["Drew, ", "Mason, ", "Christina, ", "Glenn"],
     pictures: [
@@ -694,7 +695,6 @@ let concertsData = [
     videos: [],
     setlist: []
   },
-
   {
     id: 10,
     artist: "Erykah Badu",
@@ -706,8 +706,8 @@ let concertsData = [
     venue: "American Airlines Center",
     meet: false,
     preview: "https://i.imgur.com/KjEx7X3.png",
-    artistPic: "",
-    tourPic: "",
+    artistPic: "https://i.imgur.com/q2Ohe2s.png",
+    tourPic: "https://i.imgur.com/WQ7vZOm.png",
     wentWith: ["Arnise"],
     pictures: [
       {
@@ -734,7 +734,7 @@ let concertsData = [
     meet: false,
     wentWith: ["Drew"],
     preview: "https://i.imgur.com/hFxIBAb.png",
-    artistPic: "",
+    artistPic: "https://i.imgur.com/TXLUvbz.png",
     tourPic: "https://i.imgur.com/Zskf36E.png",
     pictures: [
       {
