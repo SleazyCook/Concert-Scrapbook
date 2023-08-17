@@ -28,41 +28,50 @@ const Concert = () => {
         <img src={concertObj?.artistPic} />
       </div>
 
-      {/* CONCERT DETAILS */}
-      <div className="concert__details">
-        <div className="concert__details--header">
-          {concertObj.tour}
+      <div className="concert__flexbox">
+
+        <div className="concert__tour-pic">
+          <img src={concertObj.tourPic} />
         </div>
-        {/* Venue */}
-        <div className="concert__details--section">
-          <span className="concert__details--section-icon">
-            <FaWarehouse /> </span> 
-          <span className="concert__details--section-data">
-            {concertObj.venue}</span>
+
+        {/* CONCERT DETAILS */}
+        <div className="concert__details">
+          <div className="concert__details--header">
+            {concertObj.tour}
+          </div>
+          {/* Venue */}
+          <div className="concert__details--section">
+            <span className="concert__details--section-icon">
+              <FaWarehouse /> </span> 
+            <span className="concert__details--section-data">
+              {concertObj.venue}</span>
+          </div>
+          {/* City */}
+          <div className="concert__details--section">
+            <span className="concert__details--section-icon">
+              <FaMapMarkerAlt /> </span>
+            <span className="concert__details--section-data">
+              {concertObj.city}, {concertObj.state}</span>
+          </div>
+          {/* Date */}
+          <div className="concert__details--section">
+            <span className="concert__details--section-icon">
+              <BsFillCalendarHeartFill /> </span>
+            <span className="concert__details--section-data">
+              {concertObj.date}, {concertObj.year}
+              </span>
+          </div>
+          {/* Went With */}
+          <div className="concert__details--section">
+            <span className="concert__details--section-icon">
+              <FaUserFriends /> </span>
+            <span className="concert__details--section-data">
+              {concertObj.wentWith}
+              </span>
+          </div>
         </div>
-        {/* City */}
-        <div className="concert__details--section">
-          <span className="concert__details--section-icon">
-            <FaMapMarkerAlt /> </span>
-          <span className="concert__details--section-data">
-            {concertObj.city}, {concertObj.state}</span>
-        </div>
-        {/* Date */}
-        <div className="concert__details--section">
-          <span className="concert__details--section-icon">
-            <BsFillCalendarHeartFill /> </span>
-          <span className="concert__details--section-data">
-            {concertObj.date}, {concertObj.year}
-            </span>
-        </div>
-        {/* Went With */}
-        <div className="concert__details--section">
-          <span className="concert__details--section-icon">
-            <FaUserFriends /> </span>
-          <span className="concert__details--section-data">
-            {concertObj.wentWith}
-            </span>
-        </div>
+
+      {/* Flexbox End */}
       </div>
 
       {/* Look for mobile designs for this page */}

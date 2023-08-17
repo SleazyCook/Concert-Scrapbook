@@ -141,6 +141,7 @@ let concertsData = [
     meet: false,
     preview: "https://i.imgur.com/k72bhbS.png",
     artistPic: "https://i.imgur.com/PouCuh1.png",
+    tourPic: "https://i.imgur.com/Zskf36E.png",
     pictures: [],
     videos: [],
     wentWith: ["Drew"],
