@@ -17,6 +17,7 @@ const Concert = () => {
 
   return (
     <div className="concert">
+      {/* Look for mobile designs for this page */}
       {concertObj.artist}
       <br />
       {concertObj.date}, {concertObj.year}
