@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 
 import concertsData from './data/ConcertsData'
+import Modal from './Modal'
 
 import { FaWarehouse, FaMapMarkerAlt, FaUserFriends } from 'react-icons/fa';
 import { BsFillCalendarHeartFill } from 'react-icons/bs';
@@ -77,17 +78,31 @@ const Concert = () => {
       {/* Flexbox End */}
       </div>
 
+      <div className="concert__flexbox">
+        <div className="concert__media-button">
+          <img src={concertObj.pictures[0].img} />
+          <span>Pictures</span>
+        </div>
+        <div className="concert__media-button">
+          <img src={concertObj.pictures[1].img} />
+          <span>Videos</span>
+        </div>
+        
+      </div>
+
+      
+{/* 
       <div className="concert-pics">
         {concertObj.pictures && concertObj.pictures.map((picObj) => {
           return (
-            <div className="concert-pics__pic" key={picObj.id} value={picObj.id}>
+            <span className="concert-pics__pic" key={picObj.id} value={picObj.id}>
               <img src={picObj.img} />
-            </div>
+            </span>
           )
         })}
-      </div>
+      </div> */}
 
-      {concertObj.videos && concertObj.videos.map((videoObj) => {
+      {/* {concertObj.videos && concertObj.videos.map((videoObj) => {
         return (
           <div key={videoObj.id} value={videoObj.id}>
             <div>{videoObj.name}</div>
@@ -96,7 +111,9 @@ const Concert = () => {
             </video>
           </div>
         )
-      })}
+      })} */}
+
+      <Modal />
 
       <div className="concert__setlist">
         <span className="concert__setlist--header">
