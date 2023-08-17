@@ -32,14 +32,16 @@ let concertsData = [
     id: 3,
     artist: "Ari Lennox",
     year: 2023,
-    date: "February 19th, 2023",
+    date: "February 19th",
     tour: "Age/Sex/Location",
     city: "Houston",
     state: "Texas",
     venue: "House of Blues",
+    wentWith: ["Drew, ", "Bria"],
     meet: true,
     preview: "https://i.imgur.com/AV6EakB.png",
-    artistPic: "",
+    artistPic: "https://i.imgur.com/2XnjDs0.png",
+    tourPic: "https://i.imgur.com/saUSsYZ.png",
     pictures: [
       {
         id: 1,
@@ -62,7 +64,81 @@ let concertsData = [
         video: Shea_Butter
       }
     ],
-    wentWith: ["Drew", "Bria"],
+    setlist: [
+      {
+        id: 1,
+        song: "A/S/L (Interlude)"
+      },
+      {
+        id: 2,
+        song: "POF"
+      },
+      {
+        id: 3,
+        song: "Waste My Time"
+      },
+      {
+        id: 4,
+        song: "Outside"
+      },
+      {
+        id: 5,
+        song: "Mean Mug"
+      },
+      {
+        id: 6,
+        song: "Boy Bye"
+      },
+      {
+        id: 7,
+        song: "Stop By"
+      },
+      {
+        id: 8,
+        song: "Gummy / All Night Long"
+      },
+      {
+        id: 9,
+        song: "New Apartment"
+      },
+      {
+        id: 10,
+        song: "Whipped Cream"
+      },
+      {
+        id: 11,
+        song: "I Been"
+      },
+      {
+        id: 12,
+        song: "BMO"
+      },
+      {
+        id: 13,
+        song: "Up Late"
+      },
+      {
+        id: 14,
+        song: "Unloyal"
+      },
+      {
+        id: 15,
+        song: "Hoodie"
+      },
+      {
+        id: 16,
+        song: "Backseat"
+      },
+      {
+        id: 17,
+        song: "On It"
+      },
+      {
+        id: 18,
+        song: "Shea Butter Baby"
+      }
+    ]
+
   },
   {
     id: 4,
@@ -134,7 +210,7 @@ let concertsData = [
     artist: "Snoop Dogg",
     year: 2023,
     date: "August 14th",
-    tour: "High School Reunion Tour",
+    tour: "High School Reunion",
     city: "The Woodlands",
     state: "Texas",
     venue: "Cynthia Woods Pavillion",

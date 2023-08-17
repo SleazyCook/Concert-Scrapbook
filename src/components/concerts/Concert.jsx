@@ -21,9 +21,11 @@ const Concert = () => {
   return (
     <div className="concert">
 
+      {/* Artist Name */}
       <div className="concert__name">
         {concertObj?.artist}
       </div>
+      {/* Artist Pic */}
       <div className="concert__image">
         <img src={concertObj?.artistPic} />
       </div>
@@ -75,10 +77,7 @@ const Concert = () => {
       {/* Flexbox End */}
       </div>
 
-      {/* Look for mobile designs for this page */}
-
       <div className="concert-pics">
-        Pictures <br /><br />
         {concertObj.pictures && concertObj.pictures.map((picObj) => {
           return (
             <div className="concert-pics__pic" key={picObj.id} value={picObj.id}>
@@ -87,18 +86,6 @@ const Concert = () => {
           )
         })}
       </div>
-
-      {/* setlist component? */}
-
-      {concertObj.merch && concertObj.merch}
-
-      <br />
-      {/* Video player default
-      <video width="320" height="240" controls>
-       <source src={concertObj.videos} type="video/mp4" />
-      </video> */}
-
-      <br />VIDEOS:<br /><br />
 
       {concertObj.videos && concertObj.videos.map((videoObj) => {
         return (
@@ -110,6 +97,21 @@ const Concert = () => {
           </div>
         )
       })}
+
+      <div className="concert__setlist">
+        <span className="concert__setlist--header">
+          Setlist
+        </span>
+        {concertObj.setlist && concertObj.setlist.map((setlistObj) => {
+          return (
+            <span 
+              className="concert__setlist--song"
+              key={setlistObj.id}
+              value={setlistObj.id}>
+                {setlistObj.id}. {setlistObj.song}</span>
+          )
+        })}
+      </div>
       
 
     </div>

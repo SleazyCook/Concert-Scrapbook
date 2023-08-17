@@ -154,3 +154,22 @@ body {
         margin-bottom: 1rem; }
   .concert-pics__pic img {
     width: 40rem; }
+  .concert__setlist {
+    margin: 1rem 0;
+    padding: 2rem 0;
+    background-color: #111111;
+    border-radius: 1rem;
+    box-shadow: 7px 7px 7px black;
+    width: 44rem;
+    font-family: "Special Elite", cursive; }
+    .concert__setlist--header {
+      display: block;
+      text-align: center;
+      font-size: 3rem;
+      margin-bottom: 1rem; }
+    .concert__setlist--song {
+      font-size: 2.2rem;
+      padding-left: 5rem;
+      display: block; }
+      .concert__setlist--song:not(:last-child) {
+        margin-bottom: 1rem; }
