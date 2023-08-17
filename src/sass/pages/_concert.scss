@@ -1,5 +1,53 @@
 .concert {
-  // color: blue;
+  max-width: 60rem;
+  background-color: #1e1e1e;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__name {
+    font-size: 4rem;
+    align-self: flex-start;
+    margin-left: 5rem;
+  }
+
+  &__image {
+
+    & img {
+      border-radius: 1rem;
+      min-width: 37.5rem;
+      max-width: 50rem;
+    }
+  }
+
+  &__details {
+    width: 50rem;
+    padding: 1rem;
+
+    &--header {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    &--section {
+
+      padding: 0 5rem;
+
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+
+      &-icon {
+        // padding: 5px;
+      }
+
+      &-data {
+
+      }
+    }
+  }
 
   &-pics {
 

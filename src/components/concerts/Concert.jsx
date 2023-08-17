@@ -3,6 +3,9 @@ import { useParams } from 'react-router-dom'
 
 import concertsData from './data/ConcertsData'
 
+import { FaWarehouse, FaMapMarkerAlt, FaUserFriends } from 'react-icons/fa';
+import { BsFillCalendarHeartFill } from 'react-icons/bs';
+
 const Concert = () => {
 
   const {concertId} = useParams()
@@ -17,19 +20,53 @@ const Concert = () => {
 
   return (
     <div className="concert">
+
+      <div className="concert__name">
+        {concertObj?.artist}
+      </div>
+      <div className="concert__image">
+        <img src={concertObj?.artistPic} />
+      </div>
+
+      {/* CONCERT DETAILS */}
+      <div className="concert__details">
+        <div className="concert__details--header">
+          {concertObj.tour}
+        </div>
+        {/* Venue */}
+        <div className="concert__details--section">
+          <span className="concert__details--section-icon">
+            <FaWarehouse /> </span> 
+          <span className="concert__details--section-data">
+            {concertObj.venue}</span>
+        </div>
+        {/* City */}
+        <div className="concert__details--section">
+          <span className="concert__details--section-icon">
+            <FaMapMarkerAlt /> </span>
+          <span className="concert__details--section-data">
+            {concertObj.city}, {concertObj.state}</span>
+        </div>
+        {/* Date */}
+        <div className="concert__details--section">
+          <span className="concert__details--section-icon">
+            <BsFillCalendarHeartFill /> </span>
+          <span className="concert__details--section-data">
+            {concertObj.date}, {concertObj.year}
+            </span>
+        </div>
+        {/* Went With */}
+        <div className="concert__details--section">
+          <span className="concert__details--section-icon">
+            <FaUserFriends /> </span>
+          <span className="concert__details--section-data">
+            {concertObj.wentWith}
+            </span>
+        </div>
+      </div>
+
       {/* Look for mobile designs for this page */}
-      {concertObj.artist}
-      <br />
-      {concertObj.date}, {concertObj.year}
-      <br />
-      {concertObj.tour}
-      <br />
-      {concertObj.venue} - {concertObj.city}, {concertObj.state}
-      <br />
-      Attended with {concertObj.wentWith && concertObj.wentWith}
-      <br />
-      {concertObj.meet && "Meet & Greet Pics, Video"}
-      <br />
+
       <div className="concert-pics">
         Pictures <br /><br />
         {concertObj.pictures && concertObj.pictures.map((picObj) => {

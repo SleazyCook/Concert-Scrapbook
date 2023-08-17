@@ -12,7 +12,8 @@ let concertsData = [
     state: "Texas",
     venue: "Bayou Music Center",
     meet: true,
-    artistPic: "https://i.imgur.com/lUsFUJq.png",
+    preview: "https://i.imgur.com/lUsFUJq.png",
+    artistPic: ""
   },
   {
     id: 2,
@@ -24,7 +25,8 @@ let concertsData = [
     state: "Texas",
     venue: "Bayou Music Center",
     meet: true,
-    artistPic: "https://i.imgur.com/mFpkzLm.png",
+    preview: "https://i.imgur.com/mFpkzLm.png",
+    artistPic: ""
   },
   {
     id: 3,
@@ -36,7 +38,8 @@ let concertsData = [
     state: "Texas",
     venue: "House of Blues",
     meet: true,
-    artistPic: "https://i.imgur.com/AV6EakB.png",
+    preview: "https://i.imgur.com/AV6EakB.png",
+    artistPic: "",
     pictures: [
       {
         id: 1,
@@ -60,7 +63,6 @@ let concertsData = [
       }
     ],
     wentWith: ["Drew", "Bria"],
-    merch: []
   },
   {
     id: 4,
@@ -68,7 +70,8 @@ let concertsData = [
 
     date: "March 12th",
 
-    artistPic: "https://i.imgur.com/Pg2GctJ.png"
+    preview: "https://i.imgur.com/Pg2GctJ.png",
+    artistPic: "",
   },
   {
     id: 5,
@@ -76,7 +79,8 @@ let concertsData = [
 
     date: "May 28th",
 
-    artistPic: "https://i.imgur.com/Xao5kq3.png"
+    preview: "https://i.imgur.com/Xao5kq3.png",
+    artistPic: "",
   },
   {
     id: 6,
@@ -84,7 +88,8 @@ let concertsData = [
 
     date: "June 2nd",
 
-    artistPic: "https://i.imgur.com/DHYdrxE.png"
+    preview: "https://i.imgur.com/DHYdrxE.png",
+    artistPic: "",
   },
   {
     id: 7,
@@ -92,7 +97,8 @@ let concertsData = [
 
     date: "June 8th",
 
-    artistPic: "https://i.imgur.com/ZCe2KKC.png"
+    preview: "https://i.imgur.com/ZCe2KKC.png",
+    artistPic: "",
   },
   {
     id: 8,
@@ -100,7 +106,8 @@ let concertsData = [
 
     date: "June 8th",
 
-    artistPic: "https://i.imgur.com/K1yMXow.png"
+    preview: "https://i.imgur.com/K1yMXow.png",
+    artistPic: "",
   },
 
   {
@@ -109,7 +116,8 @@ let concertsData = [
 
     date: "July, 23rd",
 
-    artistPic: "https://i.imgur.com/KjEx7X3.png"
+    preview: "https://i.imgur.com/KjEx7X3.png",
+    artistPic: "",
   },
   {
     id: 10,
@@ -117,7 +125,8 @@ let concertsData = [
 
     date: "August 14th",
 
-    artistPic: "https://i.imgur.com/hFxIBAb.png"
+    preview: "https://i.imgur.com/hFxIBAb.png",
+    artistPic: "",
 
   },
   {
@@ -125,12 +134,13 @@ let concertsData = [
     artist: "Snoop Dogg",
     year: 2023,
     date: "August 14th",
-    tour: "High School Reunion",
+    tour: "High School Reunion Tour",
     city: "The Woodlands",
     state: "Texas",
     venue: "Cynthia Woods Pavillion",
     meet: false,
-    artistPic: "https://i.imgur.com/k72bhbS.png",
+    preview: "https://i.imgur.com/k72bhbS.png",
+    artistPic: "https://i.imgur.com/PouCuh1.png",
     pictures: [],
     videos: [],
     wentWith: ["Drew"],

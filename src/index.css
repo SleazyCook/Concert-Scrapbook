@@ -106,5 +106,31 @@ body {
     z-index: 1;
     width: 100%; }
 
-.concert-pics__pic img {
-  width: 40rem; }
+.concert {
+  max-width: 60rem;
+  background-color: #1e1e1e;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .concert__name {
+    font-size: 4rem;
+    align-self: flex-start;
+    margin-left: 5rem; }
+  .concert__image img {
+    border-radius: 1rem;
+    min-width: 37.5rem;
+    max-width: 50rem; }
+  .concert__details {
+    width: 50rem;
+    padding: 1rem; }
+    .concert__details--header {
+      text-align: center;
+      margin: 2rem 0; }
+    .concert__details--section {
+      padding: 0 5rem; }
+      .concert__details--section:not(:last-child) {
+        margin-bottom: 1rem; }
+  .concert-pics__pic img {
+    width: 40rem; }

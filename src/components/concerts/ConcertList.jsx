@@ -20,7 +20,7 @@ const ConcertList = () => {
             <span className="concert-preview__name">
               {concertsObj.artist}</span>
 
-            <img src={concertsObj.artistPic} className="concert-preview__image" />
+            <img src={concertsObj.preview} className="concert-preview__image" />
 
           </Link>
         )
