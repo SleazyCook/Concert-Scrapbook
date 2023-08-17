@@ -207,7 +207,7 @@ let concertsData = [
     meet: true,
     preview: "https://i.imgur.com/AV6EakB.png",
     artistPic: "https://i.imgur.com/2XnjDs0.png",
-    tourPic: "https://i.imgur.com/saUSsYZ.png",
+    tourPic: "https://i.imgur.com/7BDzJ0O.png",
     pictures: [
       {
         id: 1,
@@ -688,13 +688,24 @@ let concertsData = [
     state: "Texas",
     venue: "Cynthia Woods Pavillion",
     meet: false,
+    wentWith: ["Drew"],
     preview: "https://i.imgur.com/k72bhbS.png",
     artistPic: "https://i.imgur.com/PouCuh1.png",
     tourPic: "https://i.imgur.com/Zskf36E.png",
-    pictures: [],
+    pictures: [
+      {
+        id: 1,
+        img: ""
+      },
+      {
+        id: 2,
+        img: ""
+      }
+    ],
     videos: [],
-    wentWith: ["Drew"],
-    merch: []
+    setlist: [
+
+    ]
   }
 ]
 
