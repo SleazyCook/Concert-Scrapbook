@@ -463,8 +463,8 @@ let concertsData = [
     venue: "Dos Equis Pavillion",
     meet: false,
     preview: "https://i.imgur.com/DHYdrxE.png",
-    artistPic: "",
-    tourPic: "",
+    artistPic: "https://i.imgur.com/t3rEyJg.png",
+    tourPic: "https://i.imgur.com/cWL7Zst.png",
     wentWith: ["Arnise, ", "Mason, ", "Christina"],
     pictures: [
       {
@@ -643,39 +643,113 @@ let concertsData = [
   {
     id: 8,
     artist: "Baby Rose",
-
+    year: 2023,
     date: "June 8th",
-
+    tour: "Through the Soul",
+    city: "Houston",
+    state: "Texas",
+    venue: "The Bronze Peacock",
+    meet: false,
     preview: "https://i.imgur.com/ZCe2KKC.png",
     artistPic: "",
+    tourPic: "https://i.imgur.com/conTUxF.png",
+    wentWith: ["Drew, ", "Mason, ", "Christina, ", "Glenn"],
+    pictures: [
+      {
+        id: 1,
+        img: ""
+      },
+      {
+        id: 2,
+        img: ""
+      }
+    ],
+    videos: [],
+    setlist: []
   },
   {
     id: 9,
     artist: "Q",
-
+    year: 2023,
     date: "June 8th",
-
+    tour: "Through the Soul",
+    city: "Houston",
+    state: "Texas",
+    venue: "The Bronze Peacock",
+    meet: false,
     preview: "https://i.imgur.com/K1yMXow.png",
     artistPic: "",
+    tourPic: "https://i.imgur.com/conTUxF.png",
+    wentWith: ["Drew, ", "Mason, ", "Christina, ", "Glenn"],
+    pictures: [
+      {
+        id: 1,
+        img: ""
+      },
+      {
+        id: 2,
+        img: ""
+      }
+    ],
+    videos: [],
+    setlist: []
   },
 
   {
     id: 10,
     artist: "Erykah Badu",
-
+    year: 2023,
     date: "July, 23rd",
-
+    tour: "Unfollow Me",
+    city: "Dallas",
+    state: "Texas",
+    venue: "American Airlines Center",
+    meet: false,
     preview: "https://i.imgur.com/KjEx7X3.png",
     artistPic: "",
+    tourPic: "",
+    wentWith: ["Arnise"],
+    pictures: [
+      {
+        id: 1,
+        img: ""
+      },
+      {
+        id: 2,
+        img: ""
+      }
+    ],
+    videos: [],
+    setlist: []
   },
   {
     id: 11,
     artist: "Wiz Khalifa",
-
+    year: 2023,
     date: "August 14th",
-
+    tour: "High School Reunion",
+    city: "The Woodlands",
+    state: "Texas",
+    venue: "Cynthia Woods Pavillion",
+    meet: false,
+    wentWith: ["Drew"],
     preview: "https://i.imgur.com/hFxIBAb.png",
     artistPic: "",
+    tourPic: "https://i.imgur.com/Zskf36E.png",
+    pictures: [
+      {
+        id: 1,
+        img: ""
+      },
+      {
+        id: 2,
+        img: ""
+      }
+    ],
+    videos: [],
+    setlist: [
+
+    ]
 
   },
   {
