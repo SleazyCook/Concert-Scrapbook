@@ -13,8 +13,8 @@ let concertsData = [
     venue: "Bayou Music Center",
     meet: true,
     preview: "https://i.imgur.com/lUsFUJq.png",
-    artistPic: "",
-    tourPic: "",
+    artistPic: "https://i.imgur.com/Od2QxQo.png",
+    tourPic: "https://i.imgur.com/dZwMkTr.png",
     wentWith: ["Drew, ", "Bria"],
     pictures: [
       {
@@ -113,8 +113,8 @@ let concertsData = [
     venue: "Bayou Music Center",
     meet: true,
     preview: "https://i.imgur.com/mFpkzLm.png",
-    artistPic: "",
-    tourPic: "",
+    artistPic: "https://i.imgur.com/xJ5NoTq.png",
+    tourPic: "https://i.imgur.com/dZwMkTr.png",
     wentWith: ["Drew, ", "Bria"],
     pictures: [
       {
@@ -317,8 +317,8 @@ let concertsData = [
     venue: "Axelrad Beer Garden",
     meet: false,
     preview: "https://i.imgur.com/Pg2GctJ.png",
-    artistPic: "",
-    tourPic: "",
+    artistPic: "https://i.imgur.com/2f3MCDq.png",
+    tourPic: "https://i.imgur.com/7x0cKIX.png",
     wentWith: ["Drew, ", "EJ"],
     pictures: [
       {
@@ -391,9 +391,9 @@ let concertsData = [
     state: "Texas",
     venue: "Bayou Music Center",
     meet: false,
-    preview: "",
-    artistPic: "",
-    tourPic: "",
+    preview: "https://i.imgur.com/lbWXSTL.png",
+    artistPic: "https://i.imgur.com/VsxgwEU.png",
+    tourPic: "https://i.imgur.com/0s30im8.png",
     wentWith: [],
     pictures: [
       {
@@ -419,8 +419,8 @@ let concertsData = [
     venue: "The Bronze Peacock",
     meet: false,
     preview: "https://i.imgur.com/Xao5kq3.png",
-    artistPic: "",
-    tourPic: "",
+    artistPic: "https://i.imgur.com/jFQ9ikf.png",
+    tourPic: "https://i.imgur.com/n2LI2Lr.png",
     wentWith: ["Drew, ", "Mason, ", "Christina "],
     pictures: [
       {
