@@ -36,27 +36,28 @@ const Concert = () => {
 
         {/* CONCERT DETAILS */}
         <div className="concert__details">
+          {/* Tour/Festival */}
           <div className="concert__details--header">
             {concertObj.tour}
           </div>
-          {/* Venue */}
+          {/* Venue*/}
           <div className="concert__details--section">
             <span className="concert__details--section-icon">
-              <FaWarehouse /> </span> 
+              <FaWarehouse /> </span> &nbsp;
             <span className="concert__details--section-data">
               {concertObj.venue}</span>
           </div>
           {/* City */}
           <div className="concert__details--section">
             <span className="concert__details--section-icon">
-              <FaMapMarkerAlt /> </span>
+              <FaMapMarkerAlt /> </span>&nbsp;
             <span className="concert__details--section-data">
               {concertObj.city}, {concertObj.state}</span>
           </div>
           {/* Date */}
           <div className="concert__details--section">
             <span className="concert__details--section-icon">
-              <BsFillCalendarHeartFill /> </span>
+              <BsFillCalendarHeartFill /> </span> &nbsp;
             <span className="concert__details--section-data">
               {concertObj.date}, {concertObj.year}
               </span>
@@ -64,7 +65,7 @@ const Concert = () => {
           {/* Went With */}
           <div className="concert__details--section">
             <span className="concert__details--section-icon">
-              <FaUserFriends /> </span>
+              <FaUserFriends /> </span> &nbsp;
             <span className="concert__details--section-data">
               {concertObj.wentWith}
               </span>

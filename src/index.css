@@ -34,14 +34,14 @@ html {
 
 body {
   background-color: black;
-  color: green;
   box-sizing: border-box;
   padding: 0rem; }
 
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 16px; }
+  font-size: 16px;
+  color: gray; }
 
 .heading {
   font-weight: normal;
@@ -120,13 +120,14 @@ body {
     margin-left: 5rem; }
   .concert__image img {
     border-radius: 1rem;
-    min-width: 37.5rem;
-    max-width: 40rem; }
+    max-width: 44rem;
+    box-shadow: 7px 7px 7px black; }
   .concert__flexbox {
     display: flex;
     margin: 1rem 0;
     background-color: #111111;
-    border-radius: 1rem; }
+    border-radius: 1rem;
+    box-shadow: 7px 7px 7px black; }
   .concert__tour-pic {
     display: flex;
     justify-content: center;
@@ -137,7 +138,8 @@ body {
       width: 17rem; }
   .concert__details {
     width: 25rem;
-    padding: 1rem; }
+    padding: 1rem;
+    font-size: 1.5rem; }
     .concert__details--header {
       text-align: center;
       margin-top: 1rem;
