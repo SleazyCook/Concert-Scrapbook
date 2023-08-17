@@ -95,9 +95,10 @@ body {
     z-index: 2;
     background-color: black;
     color: white;
+    font-family: "Special Elite", cursive;
     display: inline-block;
     width: fit-content;
-    padding: .5rem 1rem;
+    padding: .8rem 1rem .5rem 1rem;
     border-radius: 3px; }
   .concert-preview__image {
     position: absolute;
@@ -158,7 +159,6 @@ body {
       .concert__details--section:not(:last-child) {
         margin-bottom: 1rem; }
   .concert__media-button {
-    background-color: red;
     border-radius: 1rem;
     overflow: hidden;
     width: 18rem;

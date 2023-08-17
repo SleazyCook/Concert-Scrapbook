@@ -79,14 +79,14 @@ const Concert = () => {
       </div>
 
       <div className="concert__flexbox">
-        <div className="concert__media-button">
+        {concertObj.pictures && <div className="concert__media-button">
           <img src={concertObj.pictures[0].img} />
           <span>Pictures</span>
-        </div>
-        <div className="concert__media-button">
+        </div>}
+        {concertObj.videos && <div className="concert__media-button">
           <img src={concertObj.pictures[1].img} />
           <span>Videos</span>
-        </div>
+        </div> }
         
       </div>
 

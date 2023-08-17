@@ -13,7 +13,94 @@ let concertsData = [
     venue: "Bayou Music Center",
     meet: true,
     preview: "https://i.imgur.com/lUsFUJq.png",
-    artistPic: ""
+    artistPic: "",
+    tourPic: "",
+    wentWith: ["Drew, ", "Bria"],
+    pictures: [
+      {
+        id: 1,
+        img: ""
+      },
+      {
+        id: 2,
+        img: ""
+      }
+    ],
+    videos: [
+      {
+        id: 1,
+      }
+    ],
+    setlist: [
+      {
+        id: 1,
+        song: "Mic check/KLINK"
+      },
+      {
+        id: 2,
+        song: "Rice & Gravy"
+      },
+      {
+        id: 3,
+        song: "SUMMER SALT / Z4L"
+      },
+      {
+        id: 4,
+        song: "Flea Flicka"
+      },
+      {
+        id: 5,
+        song: "Ole Ass Kendrick"
+      },
+      {
+        id: 6,
+        song: "90 Proof"
+      },
+      {
+        id: 7,
+        song: "SPINZ"
+      },
+      {
+        id: 8,
+        song: "Netflix & Dusse"
+      },
+      {
+        id: 9,
+        song: "I Deserve"
+      },
+      {
+        id: 10,
+        song: "Matinee"
+      },
+      {
+        id: 11,
+        song: "Wild Irish Roses"
+      },
+      {
+        id: 12,
+        song: "Defibrillator"
+      },
+      {
+        id: 13,
+        song: "Louphoria"
+      },
+      {
+        id: 14,
+        song: "8IT"
+      },
+      {
+        id: 15,
+        song: "Pro Freak / Dear Freak"
+      },
+      {
+        id: 16,
+        song: "Anita"
+      },
+      {
+        id: 17,
+        song: "No L's"
+      }
+    ]
   },
   {
     id: 2,
@@ -26,7 +113,86 @@ let concertsData = [
     venue: "Bayou Music Center",
     meet: true,
     preview: "https://i.imgur.com/mFpkzLm.png",
-    artistPic: ""
+    artistPic: "",
+    tourPic: "",
+    wentWith: ["Drew, ", "Bria"],
+    pictures: [
+      {
+        id: 1,
+        img: ""
+      },
+      {
+        id: 2,
+        img: ""
+      }
+    ],
+    videos: [],
+    setlist: [
+      {
+        id: 1,
+        song: "NEVER"
+      },
+      {
+        id: 2,
+        song: "Off da Zoinky's"
+      },
+      {
+        id: 3,
+        song: "Raydar"
+      },
+      {
+        id: 4,
+        song: "Dance Now"
+      },
+      {
+        id: 5,
+        song: "Crack Sandwich"
+      },
+      {
+        id: 6,
+        song: "Bruddanem"
+      },
+      {
+        id: 7,
+        song: "Sistanem"
+      },
+      {
+        id: 8,
+        song: "Kody Blu 31"
+      },
+      {
+        id: 9,
+        song: "Worin Out"
+      },
+      {
+        id: 10,
+        song: "Stars"
+      },
+      {
+        id: 11,
+        song: "Just in Time"
+      },
+      {
+        id: 12,
+        song: "Off Deez"
+      },
+      {
+        id: 13,
+        song: "Down Bad"
+      },
+      {
+        id: 14,
+        song: "Surround Sound"
+      },
+      {
+        id: 15,
+        song: "151 Rum"
+      },
+      {
+        id: 16,
+        song: "Stick"
+      }
+    ]
   },
   {
     id: 3,
@@ -143,32 +309,339 @@ let concertsData = [
   {
     id: 4,
     artist: "Thee Sacred Souls",
-
+    year: 2023,
     date: "March 12th",
-
+    tour: "2023 Tour",
+    city: "Houston",
+    state: "Texas",
+    venue: "Axelrad Beer Garden",
+    meet: false,
     preview: "https://i.imgur.com/Pg2GctJ.png",
     artistPic: "",
+    tourPic: "",
+    wentWith: ["Drew, ", "EJ"],
+    pictures: [
+      {
+        id: 1,
+        img: ""
+      },
+      {
+        id: 2,
+        img: ""
+      }
+    ],
+    videos: [],
+    setlist: [
+      {
+        id: 1,
+        song: "Overflowing",
+      },
+      {
+        id: 2,
+        song: "Love Is The Way"
+      },
+      {
+        id: 3,
+        song: "Easier Said Than Done"
+      },
+      {
+        id: 4,
+        song: "Lady Love"
+      },
+      {
+        id: 5,
+        song: "Will I See You Again?"
+      },
+      {
+        id: 6,
+        song: "Trade of Hearts"
+      },
+      {
+        id: 7,
+        song: "Let Me Feel Your Charm"
+      },
+      {
+        id: 8,
+        song: "Love Comes Easy"
+      },
+      {
+        id: 9,
+        song: "Running Away"
+      },
+      {
+        id: 10,
+        song: "Future Lover"
+      },
+      {
+        id: 11,
+        song: "Weak For Your Love"
+      },
+      {
+        id: 12,
+        song: "Can I Call You Rose?"
+      }
+    ]
   },
   {
     id: 5,
-    artist: "Dreamer Isioma",
-
-    date: "May 28th",
-
-    preview: "https://i.imgur.com/Xao5kq3.png",
+    artist: "Larry June",
+    year: 2023,
+    date: "May 23rd",
+    city: "Houston",
+    state: "Texas",
+    venue: "Bayou Music Center",
+    meet: false,
+    preview: "",
     artistPic: "",
+    tourPic: "",
+    wentWith: [],
+    pictures: [
+      {
+        id: 1,
+        img: ""
+      },
+      {
+        id: 2,
+        img: ""
+      }
+    ],
+    videos: [],
+    setlist: []
   },
   {
     id: 6,
-    artist: "Janet Jackson",
-
-    date: "June 2nd",
-
-    preview: "https://i.imgur.com/DHYdrxE.png",
+    artist: "Dreamer Isioma",
+    year: 2023,
+    date: "May 28th",
+    tour: "2023 Tour",
+    city: "Houston",
+    state: "Texas",
+    venue: "The Bronze Peacock",
+    meet: false,
+    preview: "https://i.imgur.com/Xao5kq3.png",
     artistPic: "",
+    tourPic: "",
+    wentWith: ["Drew, ", "Mason, ", "Christina "],
+    pictures: [
+      {
+        id: 1,
+        img: ""
+      },
+      {
+        id: 2,
+        img: ""
+      }
+    ],
+    videos: [],
+    setlist: [
+      {
+        id: 1,
+        song: "Fuck Tha World"
+      },
+      {
+        id: 2,
+        song: "Gimmie A Chance"
+      },
+      {
+        id: 3,
+        song: "HUH?"
+      },
+      {
+        id: 4,
+        song: "Sensitive"
+      }
+    ]
   },
   {
     id: 7,
+    artist: "Janet Jackson",
+    year: 2023,
+    date: "June 2nd",
+    tour: "Together Again",
+    city: "Dallas",
+    state: "Texas",
+    venue: "Dos Equis Pavillion",
+    meet: false,
+    preview: "https://i.imgur.com/DHYdrxE.png",
+    artistPic: "",
+    tourPic: "",
+    wentWith: ["Arnise, ", "Mason, ", "Christina"],
+    pictures: [
+      {
+        id: 1,
+        img: ""
+      },
+      {
+        id: 2,
+        img: ""
+      }
+    ],
+    videos: [],
+    setlist: [
+      {
+        id: 1,
+        song: "Damita Joe"
+      },
+      {
+        id: 2,
+        song: "Together Again"
+      },
+      {
+        id: 3,
+        song: "Feedback"
+      },
+      {
+        id: 4,
+        song: "So Much Betta"
+      },
+      {
+        id: 5,
+        song: "If"
+      },
+      {
+        id: 6,
+        song: "No Sleep"
+      },
+      {
+        id: 7,
+        song: "Got 'til It's Gone"
+      },
+      {
+        id: 8,
+        song: "That's the Way Love Goes"
+      },
+      {
+        id: 9,
+        song: "Enjoy"
+      },
+      {
+        id: 10,
+        song: "What Have You Done for Me Lately"
+      },
+      {
+        id: 11,
+        song: "Nasty"
+      },
+      {
+        id: 12,
+        song: "The Pleasure Principle"
+      },
+      {
+        id: 13,
+        song: "Because of Love"
+      },
+      {
+        id: 14,
+        song: "When I Think of You"
+      },
+      {
+        id: 15,
+        song: "Diamonds"
+      },
+      {
+        id: 16,
+        song: "The Best Things in Life Are Free"
+      },
+      {
+        id: 17,
+        song: "Control"
+      },
+      {
+        id: 18,
+        song: "When We Oooo"
+      },
+      {
+        id: 19,
+        song: "Together Again"
+      },
+      {
+        id: 20,
+        song: "Come Back to Me"
+      },
+      {
+        id: 21,
+        song: "Let's Wait Awhile"
+      },
+      {
+        id: 22,
+        song: "Again"
+      },
+      {
+        id: 23,
+        song: "Any Time, Any Place"
+      },
+      {
+        id: 24,
+        song: "I Get Lonely"
+      },
+      {
+        id: 25,
+        song: "Doesn't Really Matter"
+      },
+      {
+        id: 26,
+        song: "All for You"
+      },
+      {
+        id: 27,
+        song: "Come On Get Up"
+      },
+      {
+        id: 28,
+        song: "Throb"
+      },
+      {
+        id: 29,
+        song: "Girlfriend/Boyfriend"
+      },
+      {
+        id: 30,
+        song: "Pops Up"
+      },
+      {
+        id: 31,
+        song: "Do It 2 Me"
+      },
+      {
+        id: 32,
+        song: "So Excited"
+      },
+      {
+        id: 33,
+        song: "The Knowledge"
+      },
+      {
+        id: 34,
+        song: "Miss You Much"
+      },
+      {
+        id: 35,
+        song: "Love Will Never Do (Without You)"
+      },
+      {
+        id: 36,
+        song: "Alright"
+      },
+      {
+        id: 37,
+        song: "Escapade"
+      },
+      {
+        id: 38,
+        song: "Scream"
+      },
+      {
+        id: 39,
+        song: "Rhythm Nation"
+      },
+      {
+        id: 40,
+        song: "Together Again"
+      }
+    ]
+  },
+  {
+    id: 8,
     artist: "Baby Rose",
 
     date: "June 8th",
@@ -177,7 +650,7 @@ let concertsData = [
     artistPic: "",
   },
   {
-    id: 8,
+    id: 9,
     artist: "Q",
 
     date: "June 8th",
@@ -187,7 +660,7 @@ let concertsData = [
   },
 
   {
-    id: 9,
+    id: 10,
     artist: "Erykah Badu",
 
     date: "July, 23rd",
@@ -196,7 +669,7 @@ let concertsData = [
     artistPic: "",
   },
   {
-    id: 10,
+    id: 11,
     artist: "Wiz Khalifa",
 
     date: "August 14th",
@@ -206,7 +679,7 @@ let concertsData = [
 
   },
   {
-    id: 11,
+    id: 12,
     artist: "Snoop Dogg",
     year: 2023,
     date: "August 14th",
