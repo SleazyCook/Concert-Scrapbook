@@ -455,6 +455,33 @@ let concertsData = [
   },
   {
     id: 7,
+    artist: "Ludacris",
+    year: 2023,
+    date: "June 2nd",
+    tour: "Together Again",
+    city: "Dallas",
+    state: "Texas",
+    venue: "Dos Equis Pavillion",
+    meet: false,
+    preview: "https://i.imgur.com/MW3Ady4.png",
+    artistPic: "https://i.imgur.com/MW3Ady4.png",
+    tourPic: "https://i.imgur.com/cWL7Zst.png",
+    wentWith: ["Arnise, ", "Mason, ", "Christina"],
+    pictures: [
+      {
+        id: 1,
+        img: ""
+      },
+      {
+        id: 2,
+        img: ""
+      }
+    ],
+    videos: [],
+    setlist: []
+  },
+  {
+    id: 8,
     artist: "Janet Jackson",
     year: 2023,
     date: "June 2nd",
@@ -642,7 +669,7 @@ let concertsData = [
     ]
   },
   {
-    id: 8,
+    id: 9,
     artist: "Baby Rose",
     year: 2023,
     date: "June 8th",
@@ -669,7 +696,7 @@ let concertsData = [
     setlist: []
   },
   {
-    id: 9,
+    id: 10,
     artist: "Q",
     year: 2023,
     date: "June 8th",
@@ -696,7 +723,34 @@ let concertsData = [
     setlist: []
   },
   {
-    id: 10,
+    id: 11,
+    artist: "Yasin Bey",
+    year: 2023,
+    date: "July, 23rd",
+    tour: "Unfollow Me",
+    city: "Dallas",
+    state: "Texas",
+    venue: "American Airlines Center",
+    meet: false,
+    preview: "https://i.imgur.com/kVB9vAa.png",
+    artistPic: "https://i.imgur.com/RGnQ3sn.png",
+    tourPic: "https://i.imgur.com/WQ7vZOm.png",
+    wentWith: ["Arnise"],
+    pictures: [
+      {
+        id: 1,
+        img: ""
+      },
+      {
+        id: 2,
+        img: ""
+      }
+    ],
+    videos: [],
+    setlist: []
+  },
+  {
+    id: 12,
     artist: "Erykah Badu",
     year: 2023,
     date: "July, 23rd",
@@ -723,7 +777,7 @@ let concertsData = [
     setlist: []
   },
   {
-    id: 11,
+    id: 13,
     artist: "Wiz Khalifa",
     year: 2023,
     date: "August 14th",
@@ -753,7 +807,7 @@ let concertsData = [
 
   },
   {
-    id: 12,
+    id: 14,
     artist: "Snoop Dogg",
     year: 2023,
     date: "August 14th",
