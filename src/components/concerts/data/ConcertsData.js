@@ -1,6 +1,8 @@
 import New_Apartment from './assets/new_apartment.mp4'
 import Shea_Butter from './assets/shea_butter.mp4'
 
+// add warren g, too short
+
 let concertsData = [
   {
     id: 1,
@@ -407,7 +409,112 @@ let concertsData = [
       }
     ],
     videos: [],
-    setlist: []
+    setlist: [
+      {
+        id: 1,
+        song: "Private Jet"
+      },
+      {
+        id: 2,
+        song: "Don't Try It"
+      },
+      {
+        id: 3,
+        song: "Tracy, Ca"
+      },
+      {
+        id: 4,
+        song: "Feeling Good Today"
+      },
+      {
+        id: 5,
+        song: "Wait On Me"
+      },
+      {
+        id: 6,
+        song: "SLS 30 Days"
+      },
+      {
+        id: 7,
+        song: "Summer Reign"
+      },
+      {
+        id: 8,
+        song: "60 Days"
+      },
+      {
+        id: 9,
+        song: "Watering My Plants"
+      },
+      {
+        id: 10,
+        song: "Organic Tokens"
+      },
+      {
+        id: 11,
+        song: "Palisades, CA"
+      },
+      {
+        id: 12,
+        song: "Let's Drive to Vegas"
+      },
+      {
+        id: 13,
+        song: "Another Day, Pt. 2"
+      },
+      {
+        id: 14,
+        song: "Still Active"
+      },
+      {
+        id: 15,
+        song: "I'll Make Time"
+      },
+      {
+        id: 16,
+        song: "6am in Sausalito"
+      },
+      {
+        id: 17,
+        song: "30 DAY RUN"
+      },
+      {
+        id: 18,
+        song: "Organic Fatherhood"
+      },
+      {
+        id: 19,
+        song: "Green Juice in Dallas"
+      },
+      {
+        id: 20,
+        song: "Dear Snow"
+      },
+      {
+        id: 21,
+        song: "Friday Activities"
+      },
+      {
+        id: 22,
+        song: "Feels So Right"
+      },
+      {
+        id: 23,
+        song: "Intercepted"
+      },
+      {
+        id: 24,
+        song: "89 Earthquake"
+      },
+      {
+        id: 25,
+        song: "Meet Me in Frisco"
+      },
+      {
+        id: 26,
+        song: "Smoothies in 1991"
+      }
+    ]
   },
   {
     id: 6,
