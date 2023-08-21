@@ -2,6 +2,8 @@ import New_Apartment from './assets/new_apartment.mp4'
 import Shea_Butter from './assets/shea_butter.mp4'
 
 // add warren g, too short
+// other openers?
+// set lists from wiz/snoop
 
 let concertsData = [
   {
