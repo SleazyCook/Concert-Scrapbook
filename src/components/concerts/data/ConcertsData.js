@@ -943,6 +943,9 @@ let concertsData = [
     setlist: [
 
     ]
+  },
+  {
+    // Brent Faiyaz
   }
 ]
 
