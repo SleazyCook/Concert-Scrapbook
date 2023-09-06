@@ -946,6 +946,7 @@ let concertsData = [
   },
   {
     // Brent Faiyaz
+    // Thundercat
   }
 ]
 
