@@ -948,7 +948,7 @@ let concertsData = [
     // Brent Faiyaz
     // Thundercat
     // more?
-    // definitely more
+    // definitely more, and more
   }
 ]
 
