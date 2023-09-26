@@ -945,15 +945,130 @@ let concertsData = [
     ]
   },
   {
+    id: 15,
+    artist: "Brent Faiyaz",
+    year: 2023,
+    date: "August 23rd",
+    tour: "2023 Tour",
+    city: "Houston",
+    state: "Texas",
+    venue: "713 Music Hall",
+    meet: false,
+    wentWith: ["Bria"],
+    preview: "https://i.imgur.com/NY58U3p.png",
+    artistPic: "https://i.imgur.com/I7ATwjT.png",
+    tourPic: "https://i.imgur.com/DDZPLLo.png",
+    pictures: [
+      {
+        id: 1,
+        img: ""
+      },
+      {
+        id: 2,
+        img: ""
+      }
+    ],
+    videos: [],
+    setlist: [
+      {
+        id: 1,
+        song: "VILLAIN'S THEME"
+      },
+      {
+        id: 2,
+        song: "LOOSE CHANGE"
+      },
+      {
+        id: 3,
+        song: "Clouded"
+      },
+      {
+        id: 4,
+        song: "Been Away"
+      },
+      {
+        id: 5,
+        song: "What You Heard"
+      },
+      {
+        id: 6,
+        song: "FYTB"
+      },
+      {
+        id: 7,
+        song: "Fuck the World (Summer in London)"
+      },
+      {
+        id: 8,
+        song: "HEAL YOUR HEART (INTERLUDE)"
+      },
+      {
+        id: 9,
+        song: "ALL MINE"
+      },
+      {
+        id: 10,
+        song: "GRAVITY"
+      },
+      {
+        id: 11,
+        song: "JACKIE BROWN"
+      },
+      {
+        id: 12,
+        song: "PRICE OF FAME"
+      },
+      {
+        id: 13,
+        song: "ROLLING STONE"
+      },
+      {
+        id: 14,
+        song: "Rehab (Winter in Paris)"
+      },
+      {
+        id: 15,
+        song: "BAD LUCK"
+      },
+      {
+        id: 16,
+        song: "Posion"
+      },
+      {
+        id: 17,
+        song: "ROLE MODEL"
+      },
+      {
+        id: 18,
+        song: "Trust"
+      },
+      {
+        id: 19,
+        song: "Fell in Love"
+      },
+      {
+        id: 20,
+        song: "lost souls"
+      },
+      {
+        id: 21,
+        song: "DEAD MAN WALKING"
+      },
+      {
+        id: 22,
+        song: "WASTING TIME"
+      }
+    ]
+  }
+]
+
+
     // Brent Faiyaz
     // Thundercat
     // more?
     // definitely more, and more. more
 
     // Ari Lennox?
-  }
-]
-
 
 export default concertsData;
 
