@@ -887,6 +887,66 @@ let concertsData = [
   },
   {
     id: 13,
+    artist: "Warren G",
+    year: 2023,
+    date: "August 14th",
+    tour: "High School Reunion",
+    city: "The Woodlands",
+    state: "Texas",
+    venue: "Cynthia Woods Pavillion",
+    meet: false,
+    wentWith: ["Drew, ", "Mason"],
+    preview: "https://i.imgur.com/0yJaC8F.png",
+    artistPic: "https://i.imgur.com/PSHFKY8.png",
+    tourPic: "https://i.imgur.com/Zskf36E.png",
+    pictures: [
+      {
+        id: 1,
+        img: ""
+      },
+      {
+        id: 2,
+        img: ""
+      }
+    ],
+    videos: [],
+    setlist: [
+
+    ]
+
+  },
+  {
+    id: 14,
+    artist: "Too $hort",
+    year: 2023,
+    date: "August 14th",
+    tour: "High School Reunion",
+    city: "The Woodlands",
+    state: "Texas",
+    venue: "Cynthia Woods Pavillion",
+    meet: false,
+    wentWith: ["Drew, ", "Mason"],
+    preview: "https://i.imgur.com/8x3xX80.png",
+    artistPic: "https://i.imgur.com/rPvEQ9a.png",
+    tourPic: "https://i.imgur.com/Zskf36E.png",
+    pictures: [
+      {
+        id: 1,
+        img: ""
+      },
+      {
+        id: 2,
+        img: ""
+      }
+    ],
+    videos: [],
+    setlist: [
+
+    ]
+
+  },
+  {
+    id: 15,
     artist: "Wiz Khalifa",
     year: 2023,
     date: "August 14th",
@@ -895,7 +955,7 @@ let concertsData = [
     state: "Texas",
     venue: "Cynthia Woods Pavillion",
     meet: false,
-    wentWith: ["Drew"],
+    wentWith: ["Drew, ", "Mason"],
     preview: "https://i.imgur.com/hFxIBAb.png",
     artistPic: "https://i.imgur.com/TXLUvbz.png",
     tourPic: "https://i.imgur.com/Zskf36E.png",
@@ -916,7 +976,7 @@ let concertsData = [
 
   },
   {
-    id: 14,
+    id: 16,
     artist: "Snoop Dogg",
     year: 2023,
     date: "August 14th",
@@ -925,7 +985,7 @@ let concertsData = [
     state: "Texas",
     venue: "Cynthia Woods Pavillion",
     meet: false,
-    wentWith: ["Drew"],
+    wentWith: ["Drew, ", "Mason"],
     preview: "https://i.imgur.com/k72bhbS.png",
     artistPic: "https://i.imgur.com/PouCuh1.png",
     tourPic: "https://i.imgur.com/Zskf36E.png",
@@ -945,7 +1005,7 @@ let concertsData = [
     ]
   },
   {
-    id: 15,
+    id: 17,
     artist: "Brent Faiyaz",
     year: 2023,
     date: "August 23rd",
@@ -1058,6 +1118,64 @@ let concertsData = [
         id: 22,
         song: "WASTING TIME"
       }
+    ]
+  },
+  {
+    id: 18,
+    artist: "Mario",
+    year: 2023,
+    date: "September 27th",
+    tour: "Champagne and Roses",
+    city: "Dallas",
+    state: "Texas",
+    venue: "Dos Equis Pavilion",
+    meet: false,
+    wentWith: ["Arnice"],
+    preview: "https://i.imgur.com/5zJAFLa.png",
+    artistPic: "https://i.imgur.com/KDtnVwd.png",
+    tourPic: "https://i.imgur.com/sRun32n.png",
+    pictures: [
+      {
+        id: 1,
+        img: ""
+      },
+      {
+        id: 2,
+        img: ""
+      }
+    ],
+    videos: [],
+    setlist: [
+
+    ]
+  },
+  {
+    id: 19,
+    artist: "Ne-Yo",
+    year: 2023,
+    date: "September 27th",
+    tour: "Champagne and Roses",
+    city: "Dallas",
+    state: "Texas",
+    venue: "Dos Equis Pavilion",
+    meet: false,
+    wentWith: ["Arnice"],
+    preview: "https://i.imgur.com/L6dMj07.png",
+    artistPic: "https://i.imgur.com/7sfC8Kn.png",
+    tourPic: "https://i.imgur.com/sRun32n.png",
+    pictures: [
+      {
+        id: 1,
+        img: ""
+      },
+      {
+        id: 2,
+        img: ""
+      }
+    ],
+    videos: [],
+    setlist: [
+
     ]
   }
 ]
