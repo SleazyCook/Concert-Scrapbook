@@ -1181,7 +1181,7 @@ let concertsData = [
 ]
 
 
-    // Brent Faiyaz
+    // FKJ Concert with Mason
     // Thundercat
     // more?
     // definitely more, and more. more
