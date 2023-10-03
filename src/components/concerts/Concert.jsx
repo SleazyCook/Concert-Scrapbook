@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 
 import concertsData from './data/ConcertsData'
-import Modal from './Modal'
+import PicModal from './PicModal'
 
 import { FaWarehouse, FaMapMarkerAlt, FaUserFriends } from 'react-icons/fa';
 import { BsFillCalendarHeartFill } from 'react-icons/bs';
@@ -12,18 +12,12 @@ const Concert = () => {
   const {concertId} = useParams()
   const [concertObj, setConcertObj] = useState({})
 
-  const [modalOpen, setModalOpen] = useState(false)
-
-  // const new_apartment = '../../assets/new_apartment.mp4'
+  const [picturesOpen, setPicturesOpen] = useState(false)
 
   useEffect(() => {
     setConcertObj(concertsData[concertId-1])
     window.scrollTo({top: 0, left: 0})
   }, [concertId])
-
-  function toggleModal() {
-    setModalOpen(!modalOpen)
-  }
 
   return (
     <div className="concert">
@@ -89,9 +83,8 @@ const Concert = () => {
         {/* Photos */}
         {concertObj.pictures && <div 
           className="concert__media-button"
-          onClick={()=>{setModalOpen(true)}}>
-          {/* <img src={concertObj.pictures[0].img} /> */}
-          <img src="https://i.imgur.com/L6dMj07.png" />
+          onClick={()=>{setPicturesOpen(true)}}>
+          <img src={concertObj.pictures[0].img} />
           <span>Pictures</span>
         </div>}
         {/* Videos */}
@@ -125,7 +118,7 @@ const Concert = () => {
         )
       })} */}
 
-      {modalOpen && <Modal setModalOpen={setModalOpen} modalOpen={modalOpen} concertObj={concertObj}/>}
+      {picturesOpen && <PicModal setPicturesOpen={setPicturesOpen} concertObj={concertObj}/>}
 
       <div className="concert__setlist">
         <span className="concert__setlist--header">
