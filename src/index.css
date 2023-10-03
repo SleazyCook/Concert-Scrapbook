@@ -45,26 +45,11 @@ body {
 
 .heading {
   font-weight: normal;
-  display: flex;
-  flex-direction: column;
   margin: 0 auto;
-  width: 55rem; }
-  .heading__sub {
-    display: block;
-    font-size: 8rem; }
-    .heading__sub--1 {
-      font-family: "Bangers", cursive;
-      align-self: left;
-      color: blue; }
-    .heading__sub--2 {
-      font-family: "Special Elite", cursive;
-      align-self: flex-end;
-      color: aqua; }
-    .heading__sub--3 {
-      font-family: "Titan One", cursive;
-      align-self: center;
-      font-size: 7rem;
-      color: yellow; }
+  font-family: "Special Elite", cursive;
+  color: white;
+  width: 55rem;
+  text-align: center; }
 
 .concert-preview {
   display: block;
@@ -143,7 +128,8 @@ body {
     max-width: 45rem; }
   .modal__item-name {
     font-family: "Special Elite", cursive;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 1rem; }
   .modal__video {
     margin-bottom: 3rem; }
 
