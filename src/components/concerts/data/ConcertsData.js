@@ -16,11 +16,67 @@ let concertsData = [
     pictures: [
       {
         id: 1,
-        img: ""
+        img: "https://i.imgur.com/pAxrNhu.png"
       },
       {
         id: 2,
-        img: "https://i.imgur.com/0MypaaO.jpg"
+        img: "https://i.imgur.com/sETQ2WJ.png"
+      },
+      {
+        id: 3,
+        img: "https://i.imgur.com/LlP5ObG.png"
+      }  , 
+      {
+        id: 4,
+        img: "https://i.imgur.com/oNIHbD0.png"
+      },
+      {
+        id: 5,
+        img: "https://i.imgur.com/eYA2GFI.png"
+      },
+      {
+        id: 7,
+        img: "https://i.imgur.com/NTbtL0I.png"
+      },
+      {
+        id: 8,
+        img: "https://i.imgur.com/4U0GAmU.png"
+      },
+      {
+        id: 9,
+        img: "https://i.imgur.com/U2UWZrg.png"
+      },
+      {
+        id: 10,
+        img: "https://i.imgur.com/p5aKj9A.png"
+      },
+      {
+        id: 11,
+        img: "https://i.imgur.com/rqDsD1X.png"
+      },
+      {
+        id: 12,
+        img: "https://i.imgur.com/PXSY2sB.png"
+      },
+      {
+        id: 13,
+        img: "https://i.imgur.com/9tk0CGE.png"
+      },
+      {
+        id: 14,
+        img: "https://i.imgur.com/3gv5xBg.png"
+      },
+      {
+        id: 15,
+        img: "https://i.imgur.com/h69V085.png"
+      },
+      {
+        id: 16,
+        img: "https://i.imgur.com/Xdu6Djb.png"
+      },
+      {
+        id: 17,
+        img: "https://i.imgur.com/hpwJ7GA.png"
       }
     ],
     videos: [
