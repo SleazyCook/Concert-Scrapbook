@@ -1,0 +1,19 @@
+.modal {
+    background-color: red;
+    color: white;
+    width: 100svw;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    
+    &__close {
+        position: fixed;
+        right: 10%;
+        top: 3%;
+    }
+
+
+}

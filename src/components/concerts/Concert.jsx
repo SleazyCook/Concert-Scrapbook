@@ -12,12 +12,18 @@ const Concert = () => {
   const {concertId} = useParams()
   const [concertObj, setConcertObj] = useState({})
 
+  const [modalOpen, setModalOpen] = useState(false)
+
   // const new_apartment = '../../assets/new_apartment.mp4'
 
   useEffect(() => {
     setConcertObj(concertsData[concertId-1])
     window.scrollTo({top: 0, left: 0})
   }, [concertId])
+
+  function toggleModal() {
+    setModalOpen(!modalOpen)
+  }
 
   return (
     <div className="concert">
@@ -78,11 +84,17 @@ const Concert = () => {
       {/* Flexbox End */}
       </div>
 
+      {/* Media */}
       <div className="concert__flexbox">
-        {concertObj.pictures && <div className="concert__media-button">
-          <img src={concertObj.pictures[0].img} />
+        {/* Photos */}
+        {concertObj.pictures && <div 
+          className="concert__media-button"
+          onClick={()=>{setModalOpen(true)}}>
+          {/* <img src={concertObj.pictures[0].img} /> */}
+          <img src="https://i.imgur.com/L6dMj07.png" />
           <span>Pictures</span>
         </div>}
+        {/* Videos */}
         {concertObj.videos && <div className="concert__media-button">
           <img src={concertObj.pictures[1].img} />
           <span>Videos</span>
@@ -113,7 +125,7 @@ const Concert = () => {
         )
       })} */}
 
-      <Modal />
+      {modalOpen && <Modal setModalOpen={setModalOpen} modalOpen={modalOpen}/>}
 
       <div className="concert__setlist">
         <span className="concert__setlist--header">
