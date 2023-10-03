@@ -10,9 +10,9 @@ body {
 
 .heading {
   font-weight: normal;
-  margin: 0 auto;
   font-family: $font-concert;
   color: white;
-  width: 55rem;
+
+  border: 3px solid white;
   text-align: center;
 }

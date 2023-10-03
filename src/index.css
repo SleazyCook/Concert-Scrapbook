@@ -45,10 +45,9 @@ body {
 
 .heading {
   font-weight: normal;
-  margin: 0 auto;
   font-family: "Special Elite", cursive;
   color: white;
-  width: 55rem;
+  border: 3px solid white;
   text-align: center; }
 
 .concert-preview {
