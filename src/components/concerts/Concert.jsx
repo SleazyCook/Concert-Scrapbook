@@ -14,7 +14,7 @@ const Concert = () => {
   const [concertObj, setConcertObj] = useState({})
 
   const [picturesOpen, setPicturesOpen] = useState(false)
-  const [videosOpen, setVideosOpen] = useState(true)
+  const [videosOpen, setVideosOpen] = useState(false)
 
   useEffect(() => {
     setConcertObj(concertsData[concertId-1])
@@ -90,7 +90,9 @@ const Concert = () => {
           <span>Pictures</span>
         </div>}
         {/* Videos */}
-        {concertObj.videos && <div className="concert__media-button">
+        {concertObj.videos && <div 
+          className="concert__media-button"
+          onClick={()=>{setVideosOpen(true)}}>
           <img src={concertObj.pictures[1].img} />
           <span>Videos</span>
         </div> }
