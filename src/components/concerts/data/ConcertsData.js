@@ -1,10 +1,3 @@
-import New_Apartment from './assets/new_apartment.mp4'
-import Shea_Butter from './assets/shea_butter.mp4'
-
-// add warren g, too short
-// other openers?
-// set lists from wiz/snoop
-
 let concertsData = [
   {
     id: 1,
@@ -27,7 +20,7 @@ let concertsData = [
       },
       {
         id: 2,
-        img: ""
+        img: "https://i.imgur.com/0MypaaO.jpg"
       }
     ],
     videos: [
@@ -226,12 +219,12 @@ let concertsData = [
       {
         id: 1,
         name: "New Apartment",
-        video: New_Apartment
+        video: "ggzTyimSrRw"
       },
       {
         id: 2,
         name: "Shea Butter Baby (Farewell)",
-        video: Shea_Butter
+        video: "oh5XzKAlVyA"
       }
     ],
     setlist: [
