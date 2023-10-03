@@ -46,10 +46,9 @@ body {
 .heading {
   font-weight: normal;
   font-family: "Special Elite", cursive;
-  font-size: 2rem;
+  font-size: 3.5rem;
   color: white;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
+  padding-top: 3rem;
   text-align: center; }
 
 .concert-preview {
