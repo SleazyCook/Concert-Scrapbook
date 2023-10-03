@@ -1,4 +1,10 @@
+import { useEffect } from 'react'
+
 const PicModal = ({setPicturesOpen, concertObj}) => {
+
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0})
+  }, [])
 
   return (
     <div className="modal">
