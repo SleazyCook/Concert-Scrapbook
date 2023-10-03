@@ -28,7 +28,7 @@ const VidModal = ({setVideosOpen, concertObj}) => {
         return (
           <div key={videoObj.id} value={videoObj.id}>
             <div className="modal__item-name">{videoObj.name}</div>
-            <video width="400" height="300" controls>
+            <video width="404" height="301" controls>
               <source src={videoObj.video} type="video/mp4" />
             </video>
           </div>
