@@ -2,7 +2,7 @@ import ConcertList from "./concerts/ConcertList"
 
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       
       <header className="heading">
         Krystal's Concert <br />Scrapbook <br />

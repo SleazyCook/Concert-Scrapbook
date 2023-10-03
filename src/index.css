@@ -47,7 +47,8 @@ body {
   font-weight: normal;
   font-family: "Special Elite", cursive;
   color: white;
-  border: 3px solid white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   text-align: center; }
 
 .concert-preview {
@@ -222,3 +223,6 @@ body {
       display: block; }
       .concert__setlist--song:not(:last-child) {
         margin-bottom: 1rem; }
+
+.home {
+  background-color: #1e1e1e; }
