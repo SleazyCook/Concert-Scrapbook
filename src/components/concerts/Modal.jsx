@@ -1,6 +1,6 @@
 import ImageGallery from 'react-image-gallery'
 
-const Modal = ({setModalOpen}) => {
+const Modal = ({setModalOpen, concertObj}) => {
 
   const images = [
     {
@@ -17,6 +17,7 @@ const Modal = ({setModalOpen}) => {
     },
   ];
 
+    console.log(concertObj.pictures)
 
   return (
     <div className="modal">
@@ -27,10 +28,23 @@ const Modal = ({setModalOpen}) => {
         X
       </span>
 
-      This is my modal Box
+      <div className="modal__title">
+        {concertObj.artist} Pictures
+      </div>
 
+      <div className="modal__pics">
 
-      {/* <ImageGallery items={images} /> */}
+      
+      {concertObj.pictures && concertObj.pictures.map((picObj) => {
+        return (
+          <div key={picObj.id} value={picObj.id}>
+            <img className="modal__pic" src={picObj.img} />
+          </div>
+        )
+      })}
+
+      </div>
+
     </div>
   )
 }

@@ -108,7 +108,7 @@ body {
     width: 100%; }
 
 .modal {
-  background-color: red;
+  background-color: #111111;
   color: white;
   width: 100vw;
   height: 100vh;
@@ -129,6 +129,19 @@ body {
     align-items: center;
     border-radius: 50%;
     background-color: black; }
+  .modal__title {
+    font-size: 3rem;
+    align-self: flex-start;
+    margin-top: 3rem;
+    font-family: "Special Elite", cursive;
+    color: white;
+    margin-bottom: 3rem; }
+  .modal__pics {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem; }
+  .modal__pic {
+    max-width: 100svw; }
 
 .concert {
   max-width: 50rem;

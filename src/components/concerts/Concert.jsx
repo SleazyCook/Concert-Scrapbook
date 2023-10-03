@@ -125,7 +125,7 @@ const Concert = () => {
         )
       })} */}
 
-      {modalOpen && <Modal setModalOpen={setModalOpen} modalOpen={modalOpen}/>}
+      {modalOpen && <Modal setModalOpen={setModalOpen} modalOpen={modalOpen} concertObj={concertObj}/>}
 
       <div className="concert__setlist">
         <span className="concert__setlist--header">
