@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 
 import concertsData from './data/ConcertsData'
 import PicModal from './PicModal'
+import VidModal from './VidModal'
 
 import { FaWarehouse, FaMapMarkerAlt, FaUserFriends } from 'react-icons/fa';
 import { BsFillCalendarHeartFill } from 'react-icons/bs';
@@ -13,6 +14,7 @@ const Concert = () => {
   const [concertObj, setConcertObj] = useState({})
 
   const [picturesOpen, setPicturesOpen] = useState(false)
+  const [videosOpen, setVideosOpen] = useState(true)
 
   useEffect(() => {
     setConcertObj(concertsData[concertId-1])
@@ -119,6 +121,8 @@ const Concert = () => {
       })} */}
 
       {picturesOpen && <PicModal setPicturesOpen={setPicturesOpen} concertObj={concertObj}/>}
+      {videosOpen && <VidModal setVideosOpen={setVideosOpen} concertObj={concertObj}/>}
+
 
       <div className="concert__setlist">
         <span className="concert__setlist--header">
