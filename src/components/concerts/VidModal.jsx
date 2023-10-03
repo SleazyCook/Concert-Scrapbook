@@ -26,29 +26,26 @@ const VidModal = ({setVideosOpen, concertObj}) => {
         {/* Gallery */}
         {concertObj.videos && concertObj.videos.map((videoObj) => {
         return (
-          <div key={videoObj.id} value={videoObj.id}>
+          <div 
+            key={videoObj.id} 
+            value={videoObj.id}
+            className="modal__video">
+            {/* Video Title */}
             <div className="modal__item-name">{videoObj.name}</div>
-
-
-            {/* <video width="404" height="301" controls>
-              <source src={videoObj.video} type="video/mp4" />
-            </video> */}
-
+            {/* Video Player */}
             <iframe 
             width="404" 
             height="301" 
             src={`https://www.youtube.com/embed/${videoObj.video}`}
             title="YouTube video player" 
-            frameborder="0" 
+            frameBorder="0" 
             allow="accelerometer; 
             autoplay; 
             clipboard-write; 
             encrypted-media; 
             gyroscope; 
             picture-in-picture; 
-            web-share" allowfullscreen></iframe>
-
-            
+            web-share" allowFullScreen></iframe>
           </div>
         )
       })}
