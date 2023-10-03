@@ -133,7 +133,8 @@ body {
     align-self: flex-start;
     font-family: "Special Elite", cursive;
     color: white;
-    margin: 3rem; }
+    margin: 3rem;
+    margin-top: 1.5rem; }
   .modal__pics {
     display: flex;
     flex-direction: column;
