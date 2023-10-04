@@ -82,6 +82,48 @@ let concertsData = [
     videos: [
       {
         id: 1,
+        name: "Meet & Greet",
+        video: "Ch7YdjxWQas?"
+      },
+      {
+        id: 2,
+        name: "Clink",
+        video: "J_fd0DtArr4?"
+      },
+      {
+        id: 3,
+        name: "KLINK (Intro)",
+        video: "44WJvwnv-z8?"
+      },
+      {
+        id: 4,
+        name: "KLINK",
+        video: "2j8DuMQo-TA?"
+      },
+      {
+        id: 5,
+        name: "KLINK (Outro)",
+        video: "X45R28eDeAs?"
+      },
+      {
+        id: 6,
+        name: "Rice N Gravy (Intro)",
+        video: "znwu1DCxn-0?"
+      },
+      {
+        id: 7,
+        name: "Z4L (Spoken)",
+        video: "vcqPN2tUjug?"
+      },
+      {
+        id: 8,
+        name: "90 Proof (Intro)",
+        video: "ZPp8hdRYWdY?"
+      },
+      {
+        id: 9,
+        name: "No L's (Intro)",
+        video: "iSZClA_HBdc?"
       }
     ],
     setlist: [
