@@ -35,8 +35,16 @@ let concertsData = [
         img: "https://i.imgur.com/eYA2GFI.png"
       },
       {
-        id: 7,
+        id: 6,
         img: "https://i.imgur.com/NTbtL0I.png"
+      },
+      {
+        id: 7,
+        img: "https://i.imgur.com/KsbC44B.jpg"
+      },
+      {
+        id: 7.5,
+        img: "https://i.imgur.com/HzTEVqI.jpg"
       },
       {
         id: 8,
