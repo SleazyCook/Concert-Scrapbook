@@ -1281,7 +1281,7 @@ let concertsData = [
 
 
     // FKJ Concert with Mason
-    // Thundercat
+    // Thundercat, DFW
     // more?
     // definitely more, and more. more
 
