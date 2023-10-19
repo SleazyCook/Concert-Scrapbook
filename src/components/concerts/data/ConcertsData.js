@@ -1290,6 +1290,8 @@ let concertsData = [
     // rest of the year
     // more photo data entry
 
+    // what about following year?
+
 export default concertsData;
 
 // tyler the creator, march 27, 2022
